@@ -1,0 +1,171 @@
+body {
+    background-image: url("../images/bigdag.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+.button {
+    background-color: RGB(49, 72, 86);
+    size:
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:  none;
+    margin-top: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: Hoefler Text;
+    font-size: 15px;
+}
+#projects {
+  width: 13%;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+#contact:hover, #whatever:hover, #projects:hover, #stampede:hover{
+  transform: scale(1.01);
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter:         drop-shadow(2px 2px 2px #222);
+}
+#stampede {
+  display: flex;
+  width: 12%;
+  float: right;
+}
+#contact {
+  width: 22%;
+  margin-left: 8%;
+  margin-top: 19%;
+}
+#whatever {
+  float: right;
+  width:24%;
+  margin-top: 0%
+}
+/*#dogSpeech {
+  display: flex;
+  flex-direction: row;
+}*/
+#speechbox{
+    height: 15%;
+    width: 15%;
+    margin-left: 3%;
+}
+#dag {
+  width: 16%;
+  height: auto;
+  margin-left: 3%;
+  margin-top: 0%;
+  margin-bottom: 4%
+
+}
+#dag:hover {
+  transform: scale(1.1);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(5px 5px 5px #222);
+}
+#leaf {
+  width: 100%;
+  /*opacity: .9;*/
+}
+#nav {
+  margin-bottom: 0;
+}
+.collapse, .navbar-brand {
+  background-color: RGB(29, 43, 51);
+  border-color: RGB(29, 43, 51);
+}
+#owls {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+#flexThis {
+  display: flex;
+  justify-content: flex-end;
+}
+#test {
+  display: flex;
+  justify-content: center;
+  font-size: 130px;
+  font-family: Hoefler Text;
+  color: RGB(49, 72, 86);
+}
+#test2 {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  font-family: Hoefler Text;
+  color: RGB(236, 187, 173);
+}
+#jh {
+  width: 7%;
+  margin-left: 25%;
+  margin-top:4%;
+}
+#jh:hover {
+  transform: scale(1.1);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter:         drop-shadow(5px 5px 5px #222);
+}
+#test3 {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  font-family: Hoefler Text;
+  color: RGB(121, 136, 129);
+}
+#test4 {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  font-family: Hoefler Text;
+  color: RGB(157, 81, 65);
+}
+#test5 {
+  display: flex;
+  justify-content: center;
+  font-size: 200px;
+  font-family: Hoefler Text;
+  color: RGB(166, 127, 72);
+}
+
+#top, #left, #right {
+  z-index: -1;
+	background: RGB(49, 72, 86);
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 200px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom {
+      bottom: 0;
+      z-index: -1;
+      background: RGB(49, 72, 86);
+    }
+
+    @media
+
+    /* Fairly small screens including iphones */
+    only screen and (max-width: 500px),
+
+    /* iPads */
+    only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
+    {
+    	#top, #bottom, #left, #right { display: none; }
+    }
+/*Blue - RGB(49, 72, 86)
+Peach - RGB(236, 187, 173)
+Grey/green - RGB(121, 136, 129)
+Red. - RGB(157, 81, 65)
+Gold - RGB(166, 127, 72)*/

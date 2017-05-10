@@ -1,0 +1,40 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhernandez89/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhernandez89/portfolio/issues"
+  },
+  "homepage": "https://github.com/jhernandez89/portfolio#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.18.8",
+    "express": "^4.15.2",
+    "lolex": "^1.5.0",
+    "morgan": "~1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-moment": "^1.0.1",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "debug": "^2.6.4",
+    "jquery": "^3.2.1"
+  }
+}
