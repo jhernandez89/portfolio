@@ -68,7 +68,7 @@ body {
   margin-bottom: 4%
 
 }
-#dag:hover {
+#dag:hover, #fish:hover {
   transform: scale(1.1);
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(5px 5px 5px #222);
