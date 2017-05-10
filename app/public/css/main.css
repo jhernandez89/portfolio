@@ -3,6 +3,14 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
   }
+#fish {
+  display: flex;
+  float: right;
+  margin-top: 20%;
+  width: 15%;
+  height: auto;
+
+}
 .button {
     background-color: RGB(49, 72, 86);
     size:
