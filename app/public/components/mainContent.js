@@ -10,6 +10,7 @@
         vm.$onInit = function () {
           vm.pipe = '../images/pipe.png'
           vm.starry = '../images/starry.png'
+          vm.fishes = '../images/fishes.png'
         }
         vm.starfish = function () {
           vm.pipe = '../images/pipstar.png'
