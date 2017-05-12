@@ -18,7 +18,7 @@ body {
   align-self: flex-end;
   float: right;
   margin-top: 0%;
-  margin-right: 35%;
+  margin-right: 33%;
   width: 20%;
 }
 #fishstar {
@@ -73,9 +73,9 @@ body {
   display: flex;
   align-self: center;
   float: right;
-  width: 40%;
+  width: 60%;
   height: auto;
-  margin-top: 5%;
+  margin-top: 0%;
   margin-right: 4%;
 }
 #stampede {
@@ -100,7 +100,7 @@ body {
   align-self: flex-end;
   float: right;
   width: 80%;
-  margin-top: 0%
+  margin-top: 40%
 }
 #dogSpeech {
   display: flex;
@@ -112,7 +112,7 @@ body {
   float: left;
   flex-direction: column;
   align-self: center;
-
+  margin-top: -15%;
 
 }
 #speechbox{
