@@ -51,7 +51,8 @@ body {
   margin-left: 10%;
   margin-top: 0%;
 }
-#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover{
+#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover,
+#purplestar:hover, #seaweed:hover{
   transform: scale(1.01);
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter:         drop-shadow(2px 2px 2px #222);
@@ -59,9 +60,14 @@ body {
 #fash {
   margin-top: 2000px;
 }
+#seaweed {
+  width: 6%;
+  margin-top: 37%;
+  margin-right: 13%;
+}
 #purplestar {
   width: 7%;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 #pipe {
   display: flex;
