@@ -5,12 +5,28 @@ body {
   }
 #fish {
   display: flex;
+  align-self: center;
   float: right;
   margin-right: 2%;
-  margin-top: 9%;
-  width: 15%;
+  margin-top: 19%;
+  width: 50%;
   height: auto;
 
+}
+#starfish {
+  display: flex;
+  align-self: center;
+  float: right;
+  margin-top: 15%;
+  margin-right: 0%;
+  width: 23%;
+}
+#fishstar {
+  display: flex;
+  margin-right: 0;
+  flex-direction: column;
+  padding: 0px 0px 0px 0px;
+  float: right;
 }
 .button {
     background-color: RGB(49, 72, 86);
@@ -28,14 +44,28 @@ body {
     font-size: 15px;
 }
 #projects {
+  display: flex;
+  align-self: center;
   width: 13%;
   margin-left: 10%;
   margin-top: 0%;
 }
-#contact:hover, #whatever:hover, #projects:hover, #stampede:hover{
+#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover{
   transform: scale(1.01);
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter:         drop-shadow(2px 2px 2px #222);
+}
+#fash {
+  margin-top: 2000px;
+}
+#pipe {
+  display: flex;
+  align-self: center;
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-top: 5%;
+  margin-right: 4%;
 }
 #stampede {
   display: flex;
@@ -43,25 +73,45 @@ body {
   float: right;
 }
 #contact {
+  display: flex;
+  align-self: center;
+  width: 22%;
+  margin-left: 8%;
+  margin-top: 19%;
+}
+#contact {
   width: 22%;
   margin-left: 8%;
   margin-top: 19%;
 }
 #whatever {
+  display: flex;
+  align-self: center;
   float: right;
-  width:24%;
+  width: 80%;
   margin-top: 0%
 }
-/*#dogSpeech {
+#dogSpeech {
   display: flex;
+  align-self: center;
   flex-direction: row;
-}*/
+}
+#aboutPipe {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  align-self: center;
+
+
+}
 #speechbox{
     height: 15%;
     width: 15%;
     margin-left: 3%;
 }
 #dag {
+  display: flex;
+  align-self: center;
   width: 16%;
   height: auto;
   margin-left: 3%;

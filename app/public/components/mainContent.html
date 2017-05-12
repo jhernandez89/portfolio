@@ -1,14 +1,20 @@
-
 <!-- <p id="test">Jeff H.</p> -->
 <img id="jh" src="../images/jh.png" alt="" ng-mouseenter="bg = '../images/hatdog.png'" ng-mouseleave="bg = '../images/dag.png'">
 <div id="dogSpeech">
-  <img ng-init="bg = '../images/dag.png'"src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'" ng-mouseleave="bg = '../images/dag.png'">
-  <img id = "projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'">
-  <img class = "imageDiv" id = "contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
-  <img class = "bottomDiv" id = "whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
+    <img id="dag" ng-init="bg = '../images/dag.png'" src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'" ng-mouseleave="bg = '../images/dag.png'">
+    <img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'">
+    <img class="imageDiv" id="contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
+    <div id="aboutPipe">
+        <img class="bottomDiv" id="whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
+        <img id="pipe" src="{{$ctrl.pipe}}" alt="pipe" ng-mouseenter="$ctrl.starfish()", ng-mouseleave="$ctrl.morestar()">
+    </div>
+</div>
+<div id="fishstar">
+    <img src="{{$ctrl.starry}}" alt="fish" id="starfish" ng-mouseenter="fish = '../images/fishhat.png'" ng-mouseleave="fish = '../images/fishes.png'">
+    <img ng-init="fish = '../images/fishes.png'" src="{{fish}}" alt="fish" id="fish" ng-mouseenter="fish = '../images/fishblub.png'" ng-mouseleave="fish = '../images/fishes.png'">
 </div>
 <div>
-  <img ng-init="fish = '../images/fishes.png'"src="{{fish}}" alt="fish" id="fish" ng-mouseenter="fish = '../images/fishblub.png'" ng-mouseleave="fish = '../images/fishes.png'">
+    <img ng-init="fish = '../images/fishes.png'" src="{{fish}}" alt="fish" id="fash" ng-mouseenter="fish = '../images/fishblub.png'" ng-mouseleave="fish = '../images/fishes.png'">
 </div>
 <!-- <p id="test2">Brap brap</p>
 <p id="test3">Brap brap</p>
