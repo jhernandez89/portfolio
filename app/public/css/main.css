@@ -5,25 +5,26 @@ body {
   }
 #fish {
   display: flex;
-  align-self: center;
+  align-self: flex-end;
   float: right;
-  margin-right: 2%;
-  margin-top: 19%;
+  margin-right: 4%;
+  margin-top: 15%;
   width: 50%;
   height: auto;
 
 }
 #starfish {
   display: flex;
-  align-self: center;
+  align-self: flex-end;
   float: right;
-  margin-top: 15%;
-  margin-right: 0%;
-  width: 23%;
+  margin-top: 0%;
+  margin-right: 35%;
+  width: 20%;
 }
 #fishstar {
   display: flex;
   margin-right: 0;
+  margin-top: 5%;
   flex-direction: column;
   padding: 0px 0px 0px 0px;
   float: right;
@@ -50,13 +51,17 @@ body {
   margin-left: 10%;
   margin-top: 0%;
 }
-#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover{
+#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover{
   transform: scale(1.01);
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter:         drop-shadow(2px 2px 2px #222);
 }
 #fash {
   margin-top: 2000px;
+}
+#purplestar {
+  width: 7%;
+  margin-top: 10%;
 }
 #pipe {
   display: flex;
@@ -86,7 +91,7 @@ body {
 }
 #whatever {
   display: flex;
-  align-self: center;
+  align-self: flex-end;
   float: right;
   width: 80%;
   margin-top: 0%
