@@ -18,14 +18,14 @@ body {
   align-self: flex-end;
   float: right;
   margin-top: 0%;
-  margin-right: 33%;
-  width: 20%;
+  margin-right: 10%;
+  width: 7%;
 }
 #fishstar {
   display: flex;
   margin-right: 0;
   margin-top: 5%;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0px 0px 0px 0px;
   float: right;
 }
@@ -60,14 +60,46 @@ body {
 #fash {
   margin-top: 2000px;
 }
+.flyYouFools {
+  z-index: 100;
+  -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+  animation-timing-function: linear;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
 #seaweed {
   width: 6%;
   margin-top: 37%;
   margin-right: 13%;
 }
+#flyingAnimal {
+    position: absolute;
+    /*left: -1500px;*/
+    margin-top: 0px;
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    animation-timing-function: linear;
+}
+#orangeStar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  float: left;
+}
 #purplestar {
-  width: 7%;
-  margin-top: 3%;
+  width: 45%;
+  float: left;
+  justify-content: center;
+  align-self: center;
+  margin-top: 1%;
+  margin-left: 2%;
 }
 #pipe {
   display: flex;
