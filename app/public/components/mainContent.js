@@ -24,7 +24,12 @@
         vm.tetris = function () {
           /* global $ window */
 
-          vm.flyingGif = ['../images/tetris/blueblock.png', '../images/tetris/greenblock.png', '../images/tetris/greenL.png', '../images/tetris/purpleblock.png', '../images/tetris/redblock.png', '../images/tetris/redL.png', '../images/tetris/tblock.png'];
+          vm.flyingGif = ['../images/tetris/greenLOne.gif', '../images/tetris/greenLTwo.gif', '../images/tetris/greenLThree.gif', '../images/tetris/greenLFour.gif', '../images/tetris/greenLFive.gif', '../images/tetris/greenLSix.gif',
+          '../images/tetris/purpleZOne.gif', '../images/tetris/purpleZTwo.gif', '../images/tetris/purpleZThree.gif', '../images/tetris/purpleZFour.gif', '../images/tetris/purpleZFive.gif', '../images/tetris/purpleZSix.gif',
+          '../images/tetris/blueLOne.gif', '../images/tetris/blueLTwo.gif', '../images/tetris/blueLThree.gif', '../images/tetris/blueLFour.gif', '../images/tetris/blueLFive.gif', '../images/tetris/blueLSix.gif',
+          '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png',
+          '../images/tetris/purpleTOne.gif', '../images/tetris/purpleTTwo.gif', '../images/tetris/purpleTThree.gif', '../images/tetris/purpleTFour.gif', '../images/tetris/purpleTFive.gif', '../images/tetris/purpleTSix.gif']
+
 
           vm.width = -300;
           vm.screenWidth = $(window).width();
