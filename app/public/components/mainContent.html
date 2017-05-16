@@ -1,9 +1,10 @@
 <!-- <p id="test">Jeff H.</p> -->
 
-<div class="container-fluidy">
+<section class="container-fluid" id="section1">
     <div class="row">
         <div class="col-lg-12">
-            <img id="jh" src="../images/jh.png" alt="" ng-click="$ctrl.tetris()" ng-mouseenter="bg = '../images/hatdog.png'" ng-mouseleave="bg = '../images/dag.png'">
+            <img id="purpleT" src="{{$ctrl.purpleT}}" alt="" ng-click="$ctrl.tetris()" ng-mouseenter="$ctrl.purpleT = '../images/purpleTclick.png'" ng-mouseleave="$ctrl.purpleT = '../images/purpleT.png'">
+            <img id="jh" src="../images/jh.png" alt="logo" ng-mouseenter="bg = '../images/hatdog.png'" ng-mouseleave="bg = '../images/dag.png'">
             <div id="dogSpeech">
                 <img id="dag" ng-init="bg = '../images/dag.png'" src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'" ng-mouseleave="bg = '../images/dag.png'">
                 <img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'">
@@ -16,28 +17,95 @@
             </div>
         </div>
     </div>
+
+</section>
+
+<div id="line">
 </div>
 
 
-<div class="container-fluidy">
+<section class="container-fluid" id="section2">
     <div class="row">
         <div class="col-lg-12">
-            <div id="fishstar">
-                <img id="purplestar" src="../images/purplestarbubble.png" alt="starfish" ng-mouseenter="" ng-mouseleave="">
+            <img id="purplestar" src="{{$ctrl.purpleStar}}" alt="starfish" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarBubble.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+            <div id="accomplifish">
+                <div id="accomplishments">
+                    <img id="diploma" src="../images/diploma.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+                    <img id="computer" src="../images/computer.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+                </div>
                 <div id="orangeStar">
                     <img src="{{$ctrl.starry}}" alt="starfish" id="starfish">
                     <img src="{{$ctrl.fishes}}" alt="fish" id="fish" ng-mouseenter="$ctrl.fishes = '../images/fishblub.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
                 </div>
             </div>
-            <img id="seaweed" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
-
-            <!-- <img id="purplestar" src="../images/purplestarbubble.png" alt="starfish" ng-mouseenter="" ng-mouseleave=""> -->
-            <div>
-                <img ng-init="fish = '../images/fishes.png'" src="{{fish}}" alt="fish" id="fash" ng-mouseenter="fish = '../images/fishblub.png'" ng-mouseleave="fish = '../images/fishes.png'">
-            </div>
+            <!-- <div id="allSeaweed">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+                <img id="seaweed" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+                <img id="seaweed" src="../images/seaweedNorm.png" alt="seaweed">
+            </div> -->
         </div>
     </div>
+</section>
+<div id="line">
 </div>
+<section class="container-fluid" id="section3">
+    <div class="row">
+        <div class="col-lg-12">
+          <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'" ng-mouseleave="panda = '../images/redPanda.png'">
+        </div>
+    </div>
+</section>
+<div id="line">
+</div>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-3 column">
+                <h4>Information</h4>
+                <ul class="nav">
+                    <li><a href="about-us.html">Products</a></li>
+                    <li><a href="about-us.html">Services</a></li>
+                    <li><a href="about-us.html">Benefits</a></li>
+                    <li><a href="elements.html">Developers</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Follow Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Contact Us</h4>
+                <ul class="nav">
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Headquarters</a></li>
+                    <li><a href="#">Management</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-md-3 column">
+                <h4>Customer Service</h4>
+                <ul class="nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/row-->
+    </div>
+</footer>
+
 <!-- <p id="test2">Brap brap</p>
 <p id="test3">Brap brap</p>
 <p id="test4">Brap brap</p>

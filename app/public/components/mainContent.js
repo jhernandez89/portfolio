@@ -8,10 +8,12 @@
       controller: ['$scope', '$http', function ($scope, $http) {
         const vm = this;
         vm.$onInit = function () {
-          vm.pipe = '../images/pipe.png'
-          vm.starry = '../images/starry.png'
-          vm.fishes = '../images/fishes.png'
-          vm.stampede = '../images/Stampede.png'
+          vm.pipe = '../images/pipe.png';
+          vm.starry = '../images/starry.png';
+          vm.fishes = '../images/fishes.png';
+          vm.stampede = '../images/Stampede.png';
+          vm.purpleT = '../images/purpleT.png';
+          vm.purpleStar = '../images/purpleStar.png';
         }
         vm.starfish = function () {
           vm.pipe = '../images/pipstar.png'
@@ -26,17 +28,19 @@
 
           vm.flyingGif = ['../images/tetris/greenLOne.gif', '../images/tetris/greenLTwo.gif', '../images/tetris/greenLThree.gif', '../images/tetris/greenLFour.gif', '../images/tetris/greenLFive.gif', '../images/tetris/greenLSix.gif',
           '../images/tetris/purpleZOne.gif', '../images/tetris/purpleZTwo.gif', '../images/tetris/purpleZThree.gif', '../images/tetris/purpleZFour.gif', '../images/tetris/purpleZFive.gif', '../images/tetris/purpleZSix.gif',
-          '../images/tetris/blueLOne.gif', '../images/tetris/blueLTwo.gif', '../images/tetris/blueLThree.gif', '../images/tetris/blueLFour.gif', '../images/tetris/blueLFive.gif', '../images/tetris/blueLSix.gif',
+          '../images/tetris/blueIOne.gif', '../images/tetris/blueITwo.gif', '../images/tetris/blueIThree.gif', '../images/tetris/blueIFour.gif', '../images/tetris/blueIFive.gif', '../images/tetris/blueISix.gif',
           '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png', '../images/tetris/redB.png',
-          '../images/tetris/purpleTOne.gif', '../images/tetris/purpleTTwo.gif', '../images/tetris/purpleTThree.gif', '../images/tetris/purpleTFour.gif', '../images/tetris/purpleTFive.gif', '../images/tetris/purpleTSix.gif']
-
-
+          '../images/tetris/purpleTOne.gif', '../images/tetris/purpleTTwo.gif', '../images/tetris/purpleTThree.gif', '../images/tetris/purpleTFour.gif', '../images/tetris/purpleTFive.gif', '../images/tetris/purpleTSix.gif',
+          '../images/tetris/redLOne.gif', '../images/tetris/redLTwo.gif', '../images/tetris/redLThree.gif', '../images/tetris/redLFour.gif', '../images/tetris/redLFive.gif', '../images/tetris/redLSix.gif',
+          '../images/tetris/yellowTTwo.gif', '../images/tetris/yellowTThree.gif', '../images/tetris/yellowTFour.gif', '../images/tetris/yellowTSix.gif',
+          '../images/tetris/yellowIOne.gif', '../images/tetris/yellowITwo.gif', '../images/tetris/yellowIFour.gif', '../images/tetris/yellowIFive.gif']
           vm.width = -300;
           vm.screenWidth = $(window).width();
           vm.marginTop;
           vm.duration;
           vm.imgNum;
           vm.timeBetweenImages;
+          vm.howManyImages = 30;
           function generateRandomMargin(milliseconds) {
             vm.num = Math.floor(Math.random() * milliseconds);
             return vm.num;
@@ -67,7 +71,6 @@
             vm.imgNum = chooseRandomGif(vm.flyingGif.length);
             vm.timeBetweenImages = timeBetween(70, i);
           }
-          vm.howManyImages = 30;
           function putImagesIn(i) {
             return () => {
               defineRandomVariables(i);
