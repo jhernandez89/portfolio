@@ -23,6 +23,14 @@
           vm.pipe = '../images/pipe.png'
           vm.starry = '../images/starry.png'
         }
+        vm.party = function () {
+          vm.starry = '../images/nostarry.png'
+          vm.purpleStar = '../images/party.gif'
+        }
+        vm.noParty = function () {
+          vm.starry = '../images/starry.png'
+          vm.purpleStar = '../images/purpleStar.png'
+        }
         vm.tetris = function () {
           /* global $ window */
 
