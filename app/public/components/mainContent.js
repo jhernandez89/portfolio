@@ -26,10 +26,12 @@
         vm.party = function () {
           vm.starry = '../images/nostarry.png'
           vm.purpleStar = '../images/party.gif'
+          vm.fishes = '../images/boots.gif'
         }
         vm.noParty = function () {
           vm.starry = '../images/starry.png'
           vm.purpleStar = '../images/purpleStar.png'
+          vm.fishes = '../images/fishes.png';
         }
         vm.tetris = function () {
           /* global $ window */
