@@ -51,7 +51,7 @@
 }
 #section3 {
 	/*background-color: rgb(59, 59, 203);*/
-  background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(140, 10, 10) 40%);
+  background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(38, 34, 43) 40%);
 }
 footer .nav>li>a:hover {
     background-color:transparent;
@@ -276,7 +276,7 @@ footer .nav>li>a:hover {
   height: auto;
   margin-left: 3%;
   margin-top: 0%;
-  margin-bottom: 4%
+  margin-bottom: 3.7%
 }
 #dag:hover, #fish:hover, #panda:hover {
   transform: scale(1.1);
