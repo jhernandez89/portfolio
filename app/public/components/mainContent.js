@@ -9,6 +9,7 @@
         const vm = this;
         vm.$onInit = function () {
           vm.pipe = '../images/pipe.png';
+          vm.apple = '../images/apple.png'
           vm.starry = '../images/starry.png';
           vm.fishes = '../images/fishes.png';
           vm.stampede = '../images/Stampede.png';
