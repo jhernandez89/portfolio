@@ -57,7 +57,7 @@
         <div class="col-lg-12">
           <div class="pandatest">
             <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'" ng-mouseleave="panda = '../images/redPanda.png'">
-            <img id="testTwo" ng-init="cave = '../images/cave.png'" src="{{cave}}" alt="Smiley face" ng-mouseenter="cave = '../images/caveDragon.png'" ng-mouseleave="cave = '../images/cave.png'">
+            <img id="cave" src="{{$ctrl.cave}}" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
         </div>
         </div>
     </div>
