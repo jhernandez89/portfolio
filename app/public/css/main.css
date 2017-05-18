@@ -13,6 +13,22 @@
   height: auto;
 
 }
+.pandatest {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 40%;
+  width: auto;
+}
+#testTwo {
+  display: flex;
+  align-self: center;
+  width: 18%;
+  height: auto;
+  margin-left: 55%;
+  margin-top: 0%;
+  margin-bottom: 7.4%;
+}
 #section1 {
 
 	/*background-color: rgb(169, 216, 255);
@@ -25,7 +41,7 @@
 }
 #section3 {
 	/*background-color: rgb(59, 59, 203);*/
-  background: linear-gradient(rgb(244, 125, 125) 60%, rgb(140, 10, 10) 40%);
+  background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(140, 10, 10) 40%);
 }
 footer .nav>li>a:hover {
     background-color:transparent;
@@ -261,8 +277,8 @@ footer .nav>li>a:hover {
   color: RGB(236, 187, 173);
 }
 #jh {
-  width: 7%;
-  margin-left: 25%;
+  width: 9%;
+  margin-left: 0%;
   margin-top:4%;
 }
 #jh:hover {
