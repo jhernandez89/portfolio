@@ -20,6 +20,15 @@
   height: 40%;
   width: auto;
 }
+#pokeball {
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 20%
+}
 #desk {
   width: 80%;
   margin-bottom: 0%;
@@ -123,7 +132,7 @@ footer .nav>li>a:hover {
   margin-top: 0%;
 }
 #contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover,
-#purplestar:hover, #seaweed:hover, #purpleT:hover, #diploma:hover, #computer:hover, #apple:hover{
+#purplestar:hover, #seaweed:hover, #purpleT:hover, #diploma:hover, #computer:hover, #apple:hover {
   transform: scale(1.01);
   -webkit-filter: drop-shadow(2px 2px 2px #222);
   filter:         drop-shadow(2px 2px 2px #222);
@@ -272,13 +281,13 @@ footer .nav>li>a:hover {
 #panda {
   display: flex;
   align-self: center;
-  width: 18%;
+  width: 80%;
   height: auto;
   margin-left: 3%;
   margin-top: 0%;
   margin-bottom: 3.7%
 }
-#dag:hover, #fish:hover, #panda:hover {
+#dag:hover, #fish:hover, #panda:hover, #pokeball:hover {
   transform: scale(1.1);
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter:         drop-shadow(5px 5px 5px #222);
