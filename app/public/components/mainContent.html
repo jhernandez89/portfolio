@@ -27,14 +27,14 @@
 <section class="container-fluid" id="section2">
     <div class="row">
         <div class="col-lg-12">
-            <img id="purplestar" src="{{$ctrl.purpleStar}}" alt="starfish" ng-mouseenter="$ctrl.party()" ng-mouseleave="$ctrl.noParty()">
+            <img id="purplestar" src="{{$ctrl.purpleStar}}" alt="starfish">
             <div id="accomplifish">
                 <div id="accomplishments">
                     <img id="diploma" src="../images/diploma.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
                     <img id="computer" src="../images/computer.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
                 </div>
                 <div id="orangeStar">
-                    <img src="{{$ctrl.starry}}" alt="starfish" id="starfish">
+                    <img src="{{$ctrl.starry}}" alt="starfish" id="starfish" ng-mouseenter="$ctrl.party()" ng-mouseleave="$ctrl.noParty()">
                     <img src="{{$ctrl.fishes}}" alt="fish" id="fish" ng-mouseenter="$ctrl.fishes = '../images/fishblub.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
                 </div>
             </div>
