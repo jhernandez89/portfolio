@@ -30,58 +30,54 @@
             <img id="purplestar" src="{{$ctrl.purpleStar}}" alt="starfish">
             <div id="accomplifish">
                 <div id="accomplishments">
-                  <div id="dipApple">
-                    <img id="diploma" src="../images/diploma.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
-                    <img id="apple" src="../images/apple.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
-                  </div>
-                  <div id="dipApple">
-                    <img id="computer" src="../images/computer.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
-                  </div>
-                  <img id="desk" src="../images/desk.png" alt="desk">
+                    <div id="dipApple">
+                        <img id="diploma" src="../images/diploma.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+                        <img id="apple" src="../images/apple.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+                    </div>
+                    <div id="dipApple">
+                        <img id="computer" src="../images/computer.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
+                    </div>
+                    <img id="desk" src="../images/desk.png" alt="desk">
 
                 </div>
                 <div id="orangeStar">
                     <img src="{{$ctrl.starry}}" alt="starfish" id="starfish" ng-mouseenter="$ctrl.party()" ng-mouseleave="$ctrl.noParty()">
-                    <img src="{{$ctrl.fishes}}" alt="fish" id="fish" ng-mouseenter="$ctrl.fishes = '../images/fishblub.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
+                    <img src="{{$ctrl.fishes}}" alt="fish" id="fish">
                 </div>
-                    <!-- <img class="seaweed" id="seaOne" src="../images/seaweedNorm.png" alt="seaweed">
+                <div class="crystals">
+                    <img class="seaweed" id="seaOne" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaTwo" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaThree" src="../images/seaweedNorm.png" alt="seaweed">
-                    <img class="seaweed" id="seaFour" src="../images/seaweedNorm.png" alt="seaweed">
-                    <img class="seaweed" id="seaFive" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
+                    <img class="seaweed" id="seaFour" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
+                    <img class="seaweed" id="seaFive" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaSix" src="../images/seaweedNorm.png" alt="seaweed">
-                    <img class="seaweed" id="seaSeven" src="../images/seaweedNorm.png" alt="seaweed"> -->
+                    <img class="seaweed" id="seaSeven" src="../images/seaweedNorm.png" alt="seaweed">
+                </div>
             </div>
         </div>
     </div>
-    <!-- <img class="seaweed" id="seaOne" src="../images/seaweedNorm.png" alt="seaweed">
-    <img class="seaweed" id="seaTwo" src="../images/seaweedNorm.png" alt="seaweed">
-    <img class="seaweed" id="seaThree" src="../images/seaweedNorm.png" alt="seaweed">
-    <img class="seaweed" id="seaFour" src="../images/seaweedNorm.png" alt="seaweed">
-    <img class="seaweed" id="seaFive" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
-    <img class="seaweed" id="seaSix" src="../images/seaweedNorm.png" alt="seaweed">
-    <img class="seaweed" id="seaSeven" src="../images/seaweedNorm.png" alt="seaweed"> -->
-
 </section>
 <div id="line">
 </div>
 <section class="container-fluid" id="section3">
     <div class="row">
         <div class="col-lg-12">
-          <div class="pandatest">
-            <div>
-              <img id="pokeball" src="../images/pokeball.png" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
-              <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'" ng-mouseleave="panda = '../images/redPanda.png'">
+            <div class="pandatest">
+                <div>
+                    <img id="pokeball" src="../images/pokeball.png" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
+                    <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'" ng-mouseleave="panda = '../images/redPanda.png'">
+                </div>
+                <img id="cave" src="{{$ctrl.cave}}" alt="Smiley face">
             </div>
-            <img id="cave" src="{{$ctrl.cave}}" alt="Smiley face">
-            <!-- <img class="absolute" id="crystalOne" src="../images/crystal/crystalOne.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalTwo.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalThree.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalFour.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalFive.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalSix.png" alt="crystal">
-            <img class="absolute" src="../images/crystal/crystalSeven.png" alt="crystal"> -->
-        </div>
+            <div class="crystals">
+                <img class="crystal" id="pinkCrystal" src="{{$ctrl.pinkCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="blueCrystal" src="{{$ctrl.blueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="redCrystal" src="{{$ctrl.redCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="greenCrystal" src="{{$ctrl.greenCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="yellowCrystal" src="{{$ctrl.yellowCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="lightBlueCrystal" src="{{$ctrl.lightBlueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <img class="crystal" id="purpleCrystal" src="{{$ctrl.purpleCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+            </div>
         </div>
     </div>
 </section>

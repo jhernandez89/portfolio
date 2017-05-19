@@ -3,111 +3,126 @@
     background-repeat: no-repeat;
     background-size: 100%;
   }*/
+
 #fish {
-  display: flex;
-  align-self: flex-end;
-  float: right;
-  margin-right: 4%;
-  margin-top: 15%;
-  width: 89%;
-  height: auto;
-
+    display: flex;
+    align-self: flex-end;
+    float: right;
+    margin-right: 4%;
+    margin-top: 50%;
+    width: 60%;
+    height: auto;
+    cursor: pointer;
 }
+
 .pandatest {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 40%;
-  width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 40%;
+    width: auto;
 }
-#pokeball {
-  display: flex;
-  align-self: flex-start;
-  justify-content: flex-start;
-  width: 20%;
-  margin-left: 4%;
-  margin-top: 4%;
-  margin-bottom: 20%
-}
-#desk {
-  width: 80%;
-  margin-bottom: 0%;
-}
-#dipApple {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-#cave {
-  display: flex;
-  align-self: center;
-  width: 40%;
-  height: auto;
-  margin-left: 35%;
-  margin-top: 7%;
-  margin-bottom: 13.71%;
-}
-#section1 {
 
-	/*background-color: rgb(169, 216, 255);
+#pokeball {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 20%
+}
+
+#desk {
+    width: 80%;
+    margin-bottom: 0%;
+}
+
+#dipApple {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#cave {
+    display: flex;
+    align-self: center;
+    width: 40%;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 7%;
+    margin-bottom: 13.71%;
+}
+
+#section1 {
+    /*background-color: rgb(169, 216, 255);
   color:rgb(34, 98, 119);*/
-  background: linear-gradient(rgb(169, 216, 255) 60%, rgb(34, 198, 119) 40%);
+    background: linear-gradient(rgb(169, 216, 255) 60%, rgb(34, 198, 119) 40%);
 }
+
 #section2 {
-	/*background-color: rgb(59, 59, 203);*/
-  background: linear-gradient(rgb(59, 59, 203) 60%, rgb(44, 57, 94) 40%);
+    position: relative;
+    background: linear-gradient(rgb(59, 59, 203) 60%, rgb(44, 57, 94) 40%);
 }
+
 #section3 {
-	/*background-color: rgb(59, 59, 203);*/
-  background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(38, 34, 43) 40%);
+    position: relative;
+    background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(38, 34, 43) 40%);
 }
+
 footer .nav>li>a:hover {
-    background-color:transparent;
-	color:#fff;
+    background-color: transparent;
+    color: #fff;
 }
+
 #purpleT {
-  width: 18%;
-  float: left;
-  margin-top: 1%;
-  margin-left: 4%;
-  cursor: pointer;
+    width: 18%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 4%;
+    cursor: pointer;
 }
+
 #starfish {
-  display: flex;
-  align-self: flex-end;
-  float: right;
-  margin-top: 13%;
-  margin-right: 30%;
-  width: 33%;
+    display: flex;
+    align-self: flex-end;
+    float: right;
+    margin-top: 13%;
+    margin-right: 30%;
+    width: 33%;
 }
+
 #accomplifish {
-  display: flex;
+    display: flex;
 }
+
 #accomplishments {
-  position: relative;
-  width: 80%;
-  height: auto;
-  margin-top: 12%;
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin-bottom: 9%;
+    margin-top: 12%;
 }
+
 #fishstar {
-  display: flex;
-  margin-right: 0;
-  margin-top: 5%;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding: 0px 0px 0px 0px;
-  float: right;
+    display: flex;
+    margin-right: 0;
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 0px 0px 0px;
+    float: right;
 }
+
 .button {
     background-color: RGB(49, 72, 86);
-    size:
-    border: none;
+    size: border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration:  none;
+    text-decoration: none;
     margin-top: 25px;
     margin-right: 25px;
     display: flex;
@@ -115,42 +130,99 @@ footer .nav>li>a:hover {
     font-family: Hoefler Text;
     font-size: 15px;
 }
+
 #computer {
-  position: absolute;
-  display: flex;
-  margin-left: 45%;
-  margin-top: 3%;
-  align-self: flex-end;
-  justify-content: flex-end;
-  width: 26%;
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 3%;
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 26%;
 }
+
 #projects {
-  display: flex;
-  align-self: center;
-  width: 13%;
-  margin-left: 10%;
-  margin-top: 0%;
+    display: flex;
+    align-self: center;
+    width: 13%;
+    margin-left: 10%;
+    margin-top: 0%;
+    cursor: pointer;
 }
-#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover,
-#purplestar:hover, #seaweed:hover, #purpleT:hover, #diploma:hover, #computer:hover, #apple:hover {
-  transform: scale(1.01);
-  -webkit-filter: drop-shadow(2px 2px 2px #222);
-  filter:         drop-shadow(2px 2px 2px #222);
+
+#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover, #seaweed:hover, #purpleT:hover, #diploma:hover, #computer:hover, #apple:hover {
+    transform: scale(1.01);
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
 }
+
 #fash {
-  margin-top: 2000px;
+    margin-top: 2000px;
 }
+
 #diploma {
-  display: flex;
-  margin-top: 20%;
-  margin-left: 20%;
-  margin-bottom: 25%;
-  align-self: flex-start;
-  justify-content: flex-start;
-  width: 26%;
+    display: flex;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 25%;
+    align-self: flex-start;
+    justify-content: flex-start;
+    width: 26%;
 }
-.relative {
-  position: relative;
+
+.crystals {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 60%;
+    left: 0;
+    right: 0;
+    height: 40%;
+    bottom: 40%;
+    max-height: 100%;
+}
+
+.crystal {
+    width: 7%;
+}
+
+#pinkCrystal {
+    z-index: 100;
+    margin-top: 7%;
+    margin-left: 19%;
+    margin-right: 1%;
+}
+
+#blueCrystal {
+    margin-bottom: 11%;
+    margin-right: -12%;
+}
+
+#redCrystal {
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+#greenCrystal {
+    margin-bottom: 8%;
+    margin-left: -5%;
+    margin-right: 14%;
+}
+
+#yellowCrystal {
+    margin-bottom: -1%;
+    margin-left: -9%;
+}
+
+#lightBlueCrystal {
+    margin-bottom: -6%;
+    margin-left: -4%;
+}
+
+#purpleCrystal {
+    margin-left: -5%;
+    margin-bottom: 9%;
 }
 
 #apple {
@@ -161,239 +233,313 @@ footer .nav>li>a:hover {
     justify-content: flex-start;
     width: 26%;
 }
+
 .flyYouFools {
-  position: sticky;
-  z-index: 100;
+    position: sticky;
+    z-index: 100;
 }
+
 .absolute {
-  position: absolute;
+    position: absolute;
 }
+
 #crystalone {
-  margin-left: 50%;
+    margin-left: 50%;
 }
+
 #seaOne {
-  margin-top: 80%;
+    margin-top: 6%;
+}
+
+#seaTwo {
+    margin-bottom: 4%;
+    margin-right: 12%;
+}
+
+#seaThree {
+    margin-right: -23%;
+    margin-top: -21%;
+}
+
+#seaFour {
+    margin-right: 27%;
+    margin-top: 5%;
+}
+
+#seaFive {
+    margin-bottom: -9%;
+    margin-right: 8%;
+}
+
+#seaSix {
+    margin-top: 7%;
+    margin-right: -4%;
+}
+
+#seaSeven {
+    margin-bottom: 16%;
+    margin-left: -9%;
+    margin-right: 18%;
 }
 
 .seaweed {
-  position: absolute;
-  width: 6%;
-  top: 0;
-  bottom: 0;
-  height: auto;
-  justify-content: center;
-  align-items: center;
+    width: 5%;
+    height: auto;
 }
+
 #allSeaweed {
-  position: relative;
-  width: 40%;
-  height: 40%;
+    position: relative;
+    width: 40%;
+    height: 40%;
 }
+
 #flyingAnimal {
     position: absolute;
     /*left: -1500px;*/
     margin-top: 0px;
 }
-#orangeStar {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  margin-top: 6%;
-  margin-right: 2%;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding: 0%;
-}
-#purplestar {
-  width: 40%;
-  float: left;
-  justify-content: flex-end;
-  align-self: flex-end;
-  margin-top: 6%;
-  margin-left: 2%;
-}
-#pipe {
-  display: flex;
-  align-self: center;
-  float: right;
-  width: 55%;
-  height: auto;
-  margin-top: 0%;
-  margin-right: 4%;
-}
-#stampede {
-  display: flex;
-  width: 50%;
-  float: right;
-}
-#contact {
-  display: flex;
-  align-self: center;
-  width: 22%;
-  margin-left: 8%;
-  margin-top: 19%;
-  margin-bottom: 4%;
-}
-#line {
-  width: 110%;
-  height: 10px;
-  color: black;
-  background-color: black;
-  float: bottom;
-}
-#contact {
-  width: 22%;
-  margin-left: 8%;
-  margin-top: 19%;
-}
-#whatever {
-  display: flex;
-  align-self: flex-end;
-  float: right;
-  width: 80%;
-  margin-top: 40%
-}
-#dogSpeech {
-  display: flex;
-  align-self: center;
-  flex-direction: row;
-  z-index: -1;
-}
-#aboutPipe {
-  display: flex;
-  float: left;
-  flex-direction: column;
-  align-self: center;
-  margin-top: -15%;
 
+#orangeStar {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-bottom: 6%;
+    margin-right: 4.5%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0%;
 }
-#speechbox{
+
+#purplestar {
+    width: 40%;
+    float: left;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin-top: 13%;
+    margin-left: 2%;
+}
+
+#pipe {
+    display: flex;
+    align-self: center;
+    float: right;
+    width: 55%;
+    height: auto;
+    margin-top: 0%;
+    margin-right: 4%;
+}
+
+#stampede {
+    display: flex;
+    width: 50%;
+    float: right;
+}
+
+#contact {
+    display: flex;
+    align-self: center;
+    width: 22%;
+    margin-left: 8%;
+    margin-top: 19%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+#line {
+    width: 110%;
+    height: 10px;
+    color: black;
+    background-color: black;
+    float: bottom;
+}
+
+#contact {
+    width: 22%;
+    margin-left: 8%;
+    margin-top: 19%;
+}
+
+#whatever {
+    display: flex;
+    align-self: flex-end;
+    float: right;
+    width: 80%;
+    margin-top: 40%;
+    cursor: pointer;
+}
+
+#dogSpeech {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    z-index: -1;
+}
+
+#aboutPipe {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-self: center;
+    margin-top: -15%;
+}
+
+#speechbox {
     height: 15%;
     width: 15%;
     margin-left: 3%;
 }
+
 #dag {
-  display: flex;
-  align-self: center;
-  width: 16%;
-  height: auto;
-  margin-left: 3%;
-  margin-top: 0%;
-  margin-bottom: 4%
+    display: flex;
+    align-self: center;
+    width: 16%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-bottom: 4%
 }
+
 #panda {
-  display: flex;
-  align-self: center;
-  width: 80%;
-  height: auto;
-  margin-left: 3%;
-  margin-top: 0%;
-  margin-bottom: 3.7%
+    display: flex;
+    align-self: center;
+    z-index: 100;
+    width: 80%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-bottom: 3.7%
 }
+
 #dag:hover, #fish:hover, #panda:hover, #pokeball:hover {
-  transform: scale(1.1);
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(5px 5px 5px #222);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
+
 #leaf {
-  width: 100%;
-  /*opacity: .9;*/
+    width: 100%;
+    /*opacity: .9;*/
 }
+
 #nav {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .collapse, .navbar-brand {
-  background-color: RGB(29, 43, 51);
-  border-color: RGB(29, 43, 51);
+    background-color: RGB(29, 43, 51);
+    border-color: RGB(29, 43, 51);
 }
+
 #owls {
-  margin-top: 40px;
-  margin-right: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
 }
+
 #flexThis {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
+
 #test {
-  display: flex;
-  justify-content: center;
-  font-size: 130px;
-  font-family: Hoefler Text;
-  color: RGB(49, 72, 86);
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    font-family: Hoefler Text;
+    color: RGB(49, 72, 86);
 }
+
 #test2 {
-  display: flex;
-  justify-content: center;
-  font-size: 200px;
-  font-family: Hoefler Text;
-  color: RGB(236, 187, 173);
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    font-family: Hoefler Text;
+    color: RGB(236, 187, 173);
 }
+
 #jh {
-  width: 9%;
-  margin-left: 0%;
-  margin-top:4%;
+    width: 9%;
+    margin-left: 0%;
+    margin-top: 4%;
 }
+
 #jh:hover {
-  transform: scale(1.1);
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter:         drop-shadow(5px 5px 5px #222);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
+
 #test3 {
-  display: flex;
-  justify-content: center;
-  font-size: 200px;
-  font-family: Hoefler Text;
-  color: RGB(121, 136, 129);
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    font-family: Hoefler Text;
+    color: RGB(121, 136, 129);
 }
+
 #test4 {
-  display: flex;
-  justify-content: center;
-  font-size: 200px;
-  font-family: Hoefler Text;
-  color: RGB(157, 81, 65);
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    font-family: Hoefler Text;
+    color: RGB(157, 81, 65);
 }
+
 #test5 {
-  display: flex;
-  justify-content: center;
-  font-size: 200px;
-  font-family: Hoefler Text;
-  color: RGB(166, 127, 72);
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    font-family: Hoefler Text;
+    color: RGB(166, 127, 72);
 }
 
 #top, #left, #right {
-  z-index: -1;
-	background: RGB(49, 72, 86);
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 200px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
+    z-index: -1;
+    background: RGB(49, 72, 86);
+    position: fixed;
+}
 
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom {
-      bottom: 0;
-      z-index: -1;
-      background: RGB(49, 72, 86);
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: 200px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: 15px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+    z-index: -1;
+    background: RGB(49, 72, 86);
+}
+
+@media
+/* Fairly small screens including iphones */
+
+only screen and (max-width: 500px),
+/* iPads */
+
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #top, #bottom, #left, #right {
+        display: none;
     }
+}
 
-    @media
-
-    /* Fairly small screens including iphones */
-    only screen and (max-width: 500px),
-
-    /* iPads */
-    only screen and (min-device-width: 768px) and (max-device-width: 1024px)
-
-    {
-    	#top, #bottom, #left, #right { display: none; }
-    }
 
 /*Blue - RGB(49, 72, 86)
 Peach - RGB(236, 187, 173)

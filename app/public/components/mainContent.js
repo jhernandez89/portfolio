@@ -15,10 +15,21 @@
           vm.stampede = '../images/Stampede.png';
           vm.purpleT = '../images/purpleT.png';
           vm.purpleStar = '../images/purpleStar.png';
-          vm.cave = '../images/cave/caveZero.png'
+          vm.cave = '../images/cave/caveZero.png';
+          vm.pinkCrystal = '../images/crystal/crystalOne.png';
+          vm.blueCrystal = '../images/crystal/crystalTwo.png';
+          vm.redCrystal = '../images/crystal/crystalThree.png';
+          vm.greenCrystal = '../images/crystal/crystalFour.png';
+          vm.yellowCrystal = '../images/crystal/crystalFive.png';
+          vm.lightBlueCrystal = '../images/crystal/crystalSix.png';
+          vm.purpleCrystal = '../images/crystal/crystalSeven.png';
           vm.pCave = ['../images/cave/caveOne.png', '../images/cave/caveTwo.png', '../images/cave/caveThree.png', '../images/cave/caveFour.png',
             '../images/cave/caveFive.png', '../images/cave/caveSix.png', '../images/cave/caveSeven.png', '../images/cave/caveEight.png',
           '../images/cave/caveNine.gif']
+          vm.crystals = ['../images/crystal/crystalOne.png', '../images/crystal/crystalTwo.png', '../images/crystal/crystalThree.png',
+            '../images/crystal/crystalFour.png', '../images/crystal/crystalFive.png', '../images/crystal/crystalSix.png',
+            '../images/crystal/crystalSeven.png'];
+          vm.mixNum = [0, 1, 2, 3, 4, 5, 6]
         }
         vm.starfish = function () {
           vm.pipe = '../images/pipstar.png'
@@ -28,6 +39,25 @@
           vm.ranNum = Math.floor((Math.random() * 9) + 0);
           vm.cave = vm.pCave[vm.ranNum]
         }
+        vm.randomCrystal = function () {
+          for(var j, x, i = vm.mixNum.length; i; j = parseInt(Math.random() * i), x = vm.mixNum[--i], vm.mixNum[i] = vm.mixNum[j], vm.mixNum[j] = x);
+            vm.pinkCrystal = vm.crystals[vm.mixNum[0]];
+            vm.blueCrystal = vm.crystals[vm.mixNum[1]];
+            vm.redCrystal = vm.crystals[vm.mixNum[2]];
+            vm.greenCrystal =  vm.crystals[vm.mixNum[3]];
+            vm.yellowCrystal =  vm.crystals[vm.mixNum[4]];
+            vm.lightBlueCrystal = vm.crystals[vm.mixNum[5]];
+            vm.purpleCrystal = vm.crystals[vm.mixNum[6]];
+        }
+        vm.regCrystals = function () {
+          vm.pinkCrystal = '../images/crystal/crystalOne.png';
+          vm.blueCrystal = '../images/crystal/crystalTwo.png';
+          vm.redCrystal = '../images/crystal/crystalThree.png';
+          vm.greenCrystal = '../images/crystal/crystalFour.png';
+          vm.yellowCrystal = '../images/crystal/crystalFive.png';
+          vm.lightBlueCrystal = '../images/crystal/crystalSix.png';
+          vm.purpleCrystal = '../images/crystal/crystalSeven.png';
+        }
         vm.morestar = function () {
           vm.pipe = '../images/pipe.png'
           vm.starry = '../images/starry.png'
@@ -35,7 +65,7 @@
         vm.party = function () {
           vm.starry = '../images/nostarry.png'
           vm.purpleStar = '../images/party.gif'
-          vm.fishes = '../images/boots.gif'
+          vm.fishes = '../images/noFish.png'
         }
         vm.noParty = function () {
           vm.starry = '../images/starry.png'
