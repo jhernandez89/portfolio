@@ -165,8 +165,11 @@ footer .nav>li>a:hover {
   position: sticky;
   z-index: 100;
 }
-#absolute {
+.absolute {
   position: absolute;
+}
+#crystalone {
+  margin-left: 50%;
 }
 #seaOne {
   margin-top: 80%;

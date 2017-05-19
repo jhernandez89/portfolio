@@ -17,14 +17,15 @@
           vm.purpleStar = '../images/purpleStar.png';
           vm.cave = '../images/cave/caveZero.png'
           vm.pCave = ['../images/cave/caveOne.png', '../images/cave/caveTwo.png', '../images/cave/caveThree.png', '../images/cave/caveFour.png',
-            '../images/cave/caveFive.png', '../images/cave/caveSix.png', '../images/cave/caveSeven.png', '../images/cave/caveEight.png']
+            '../images/cave/caveFive.png', '../images/cave/caveSix.png', '../images/cave/caveSeven.png', '../images/cave/caveEight.png',
+          '../images/cave/caveNine.gif']
         }
         vm.starfish = function () {
           vm.pipe = '../images/pipstar.png'
           vm.starry = '../images/nostarry.png'
         }
         vm.randomCave = function () {
-          vm.ranNum = Math.floor((Math.random() * 8) + 0);
+          vm.ranNum = Math.floor((Math.random() * 9) + 0);
           vm.cave = vm.pCave[vm.ranNum]
         }
         vm.morestar = function () {
