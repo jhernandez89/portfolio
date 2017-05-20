@@ -1,12 +1,13 @@
 /* global angular controller */
 
+
 (function () {
-  console.log('main');
   'use strict';
   angular.module('app', [])
     .component('mainContent', {
       controller: ['$scope', '$http', function ($scope, $http) {
         const vm = this;
+
         vm.$onInit = function () {
           vm.pipe = '../images/pipe.png';
           vm.apple = '../images/apple.png'
@@ -49,6 +50,7 @@
             vm.lightBlueCrystal = vm.crystals[vm.mixNum[5]];
             vm.purpleCrystal = vm.crystals[vm.mixNum[6]];
         }
+
         vm.regCrystals = function () {
           vm.pinkCrystal = '../images/crystal/crystalOne.png';
           vm.blueCrystal = '../images/crystal/crystalTwo.png';
@@ -147,6 +149,9 @@
             loopThroughImages();
             $('.flyYouFools').empty();
           };
+          $(function () {
+              $('.map').maphilight();
+          });
         }
       }],
       templateUrl: './components/mainContent.html',
