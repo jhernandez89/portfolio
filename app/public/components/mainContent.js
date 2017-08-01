@@ -18,7 +18,7 @@
           vm.fishes = '../images/fishes.png';
           vm.stampede = '../images/Stampede.png';
           vm.purpleT = '../images/purpleT.png';
-          vm.purpleStar = '../images/purpleStar.png';
+          vm.purpleStar = '../images/purplestar.png';
           vm.cave = '../images/cave/caveZero.png';
           vm.pinkCrystal = '../images/crystal/crystalOne.png';
           vm.blueCrystal = '../images/crystal/crystalTwo.png';
