@@ -90,7 +90,7 @@
         };
         vm.noParty = function () {
           vm.starry = '../images/starry.png';
-          vm.purpleStar = '../images/purpleStar.png';
+          vm.purpleStar = '../images/purplestar.png';
           vm.fishes = '../images/fishes.png';
         };
         vm.tetris = function () {
