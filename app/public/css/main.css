@@ -15,19 +15,11 @@
     cursor: pointer;
 }
 
-.pandatest {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    height: 40%;
-    width: auto;
-}
-
 #pokeball {
     display: flex;
     align-self: flex-start;
     justify-content: flex-start;
-    width: 20%;
+    width: 25%;
     margin-left: 4%;
     margin-top: 4%;
     margin-bottom: 20%
@@ -50,9 +42,9 @@
 #cave {
     display: flex;
     align-self: center;
-    width: 40%;
+    width: 75%;
     height: auto;
-    margin-left: 35%;
+    /* margin-left: 35%; */
     margin-top: 7%;
     margin-bottom: 13.71%;
 }
@@ -70,7 +62,17 @@
 
 #section3 {
     position: relative;
+    padding-top: 5%;
+    padding-bottom: 10%;
     background: linear-gradient(rgba(15, 6, 31, 0.73) 60%, rgb(38, 34, 43) 40%);
+    min-height: 80vh;
+}
+
+#section4 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    background: linear-gradient(rgb(253, 253, 253) 60%, rgb(193, 193, 193) 40%);
 }
 
 footer .nav>li>a:hover {
@@ -86,6 +88,10 @@ footer .nav>li>a:hover {
     margin-top: 1%;
     margin-left: 4%;
     cursor: pointer;
+}
+
+.sendButton {
+    margin: 5%;
 }
 
 #starfish {
@@ -135,18 +141,28 @@ footer .nav>li>a:hover {
     font-size: 15px;
 }
 
-#computer {
-}
+#computer {}
+
 #projects {
     display: flex;
     align-self: center;
-    width: 13%;
+    width: 70%;
     margin-left: 10%;
     margin-top: 0%;
     cursor: pointer;
 }
 
-#contact:hover, #whatever:hover, #projects:hover, #stampede:hover, #pipe:hover, #starfish:hover, #seaweed:hover, #purpleT:hover, #diploma:hover, #computer:hover, #apple:hover {
+#contact:hover,
+#whatever:hover,
+#projects:hover,
+#stampede:hover,
+#pipe:hover,
+#starfish:hover,
+#seaweed:hover,
+#purpleT:hover,
+#diploma:hover,
+#computer:hover,
+#apple:hover {
     transform: scale(1.01);
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
@@ -307,13 +323,14 @@ footer .nav>li>a:hover {
     justify-content: flex-start;
     padding: 0%;
 }
+
 .border {
-  border:1px solid red;
+    border: 1px solid red;
 }
 
 #purplestar {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
     width: 40%;
     float: left;
     justify-content: flex-end;
@@ -349,7 +366,7 @@ footer .nav>li>a:hover {
 }
 
 #line {
-    width: 110%;
+    width: 100%;
     height: 10px;
     color: black;
     background-color: black;
@@ -357,7 +374,7 @@ footer .nav>li>a:hover {
 }
 
 #contact {
-    width: 22%;
+    width: 64%;
     margin-left: 8%;
     margin-top: 19%;
 }
@@ -366,7 +383,7 @@ footer .nav>li>a:hover {
     display: flex;
     align-self: flex-end;
     float: right;
-    width: 80%;
+    width: 58%;
     margin-top: 40%;
     cursor: pointer;
 }
@@ -407,14 +424,17 @@ footer .nav>li>a:hover {
     display: flex;
     align-self: center;
     z-index: 100;
-    width: 80%;
+    width: 100%;
     height: auto;
     margin-left: 3%;
     margin-top: 0%;
     margin-bottom: 3.7%
 }
 
-#dag:hover, #fish:hover, #panda:hover, #pokeball:hover {
+#dag:hover,
+#fish:hover,
+#panda:hover,
+#pokeball:hover {
     transform: scale(1.1);
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -429,7 +449,8 @@ footer .nav>li>a:hover {
     margin-bottom: 0;
 }
 
-.collapse, .navbar-brand {
+.collapse,
+.navbar-brand {
     background-color: RGB(29, 43, 51);
     border-color: RGB(29, 43, 51);
 }
@@ -496,13 +517,16 @@ footer .nav>li>a:hover {
     color: RGB(166, 127, 72);
 }
 
-#top, #left, #right {
+#top,
+#left,
+#right {
     z-index: -1;
     background: RGB(49, 72, 86);
     position: fixed;
 }
 
-#left, #right {
+#left,
+#right {
     top: 0;
     bottom: 0;
     width: 200px;
@@ -516,7 +540,8 @@ footer .nav>li>a:hover {
     right: 0;
 }
 
-#top, #bottom {
+#top,
+#bottom {
     left: 0;
     right: 0;
     height: 15px;
@@ -544,6 +569,69 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
     }
 }
 
+legend {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+#dogAndMap {
+    display: flex;
+    flex-direction: row;
+}
+
+#fox {
+    display: flex;
+    align-self: center;
+    width: 20%;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 7%;
+    margin-bottom: 4%
+}
+
+.mapParent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#projectMap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-bottom: 11%;
+    margin-top: 1%;
+    padding-left: 5%;
+    float: left;
+}
+
+#thesaurusRex {
+    position: absolute;
+    cursor: pointer;
+    width: 14%;
+    top: 45%;
+    left: 68%;
+}
+
+#spaceHub {
+    position: absolute;
+    width: 14%;
+    top: 3%;
+    left: 11%;
+}
+
+#flashRhino {
+    position: absolute;
+    width: 14%;
+    top: 48.5%;
+    left: 11.5%;
+}
 
 /*Blue - RGB(49, 72, 86)
 Peach - RGB(236, 187, 173)

@@ -3,22 +3,42 @@
 <section class="container-fluid" id="section1">
     <div class="row">
         <div class="col-lg-12">
-            <img id="purpleT" src="{{$ctrl.purpleT}}" alt="" ng-click="$ctrl.tetris()" ng-mouseenter="$ctrl.purpleT = '../images/purpleTclick.png'" ng-mouseleave="$ctrl.purpleT = '../images/purpleT.png'">
-            <img id="jh" src="../images/jh.png" alt="logo" ng-mouseenter="bg = '../images/hatdog.png'" ng-mouseleave="bg = '../images/dag.png'">
+            <img id="purpleT" src="{{$ctrl.purpleT}}" alt="" ng-click="$ctrl.tetris()" ng-mouseenter="$ctrl.purpleT = '../images/purpleTclick.png'"
+                ng-mouseleave="$ctrl.purpleT = '../images/purpleT.png'">
+            <img id="jh" src="../images/logo.png" alt="logo" ng-mouseenter="bg = '../images/hatdog.png'" ng-mouseleave="bg = '../images/dag.png'">
             <div id="dogSpeech">
-                <img id="dag" ng-init="bg = '../images/dag.png'" src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'" ng-mouseleave="bg = '../images/dag.png'">
-                <img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'">
-                <img class="imageDiv" id="contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
-                <div id="aboutPipe">
+                <img id="dag" ng-init="bg = '../images/dag.png'" src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'"
+                    ng-mouseleave="bg = '../images/dag.png'">
+                <a class="page-scroll" href="#section4"><img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
+                <a class="page-scroll" href="#section3"><img class="imageDiv" id="contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
+                <a class="page-scroll" href="#section2"><div id="aboutPipe">
                     <!-- <img id="stampede" src="{{$ctrl.stampede}}" alt="pipe"> -->
-                    <img class="bottomDiv" id="whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'">
+                <a class="page-scroll" href="#section2"><img class="bottomDiv" id="whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
                     <img id="pipe" src="{{$ctrl.pipe}}" alt="pipe" ng-mouseenter="$ctrl.starfish()" , ng-mouseleave="$ctrl.morestar()">
                 </div>
             </div>
         </div>
     </div>
-
 </section>
+<div id="line">
+</div>
+<section class="container-fluid" id="section4">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="dogAndMap">
+                <img id="fox" ng-init="fox = '../images/fox.png'" src="{{fox}}" alt="Smiley face" id="dag" ng-mouseenter="fox = '../images/foxHat.png'"
+                    ng-mouseleave="fox = '../images/fox.png'">
+                <div class="mapParent">
+                    <img id="projectMap" src="../images/projectsMap.png" alt="project map" class="map mapper">
+                    <a href="https://thesaurus-rex.firebaseapp.com/#"><img id="thesaurusRex" src="../images/thesaurusRex.png" alt="Thesaurus Rex"></a>
+                    <a href="https://spacehub.us/#/"><img id="spaceHub" src="../images/spaceHub.png" alt="SpaceHub"></a>
+                    <a href="https://flashrhino.com/"><img id="flashRhino" src="../images/flashRhino.png" alt="Flash Rhino"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <div id="line">
 </div>
@@ -39,7 +59,7 @@
                     </div> -->
                     <!-- <img id="desk" class="border" src="../images/desk.png" alt="desk" usemap="#planetmap"> -->
                     <img id="desk" src="../images/desk.png" usemap="#enewspaper" class="map">
-                     <map name="enewspaper">
+                    <map name="enewspaper">
                          <area shape="rect" coords="0,112,119,453" />
                          <area shape="rect" coords="119,235,410,453" />
                          <area shape="rect" coords="411,232,490,453" />
@@ -54,7 +74,8 @@
                     <img class="seaweed" id="seaOne" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaTwo" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaThree" src="../images/seaweedNorm.png" alt="seaweed">
-                    <img class="seaweed" id="seaFour" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'" ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
+                    <img class="seaweed" id="seaFour" src="../images/seaweed.png" alt="seaweed" ng-mouseenter="$ctrl.fishes = '../images/fishhat.png'"
+                        ng-mouseleave="$ctrl.fishes = '../images/fishes.png'">
                     <img class="seaweed" id="seaFive" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaSix" src="../images/seaweedNorm.png" alt="seaweed">
                     <img class="seaweed" id="seaSeven" src="../images/seaweedNorm.png" alt="seaweed">
@@ -67,22 +88,65 @@
 </div>
 <section class="container-fluid" id="section3">
     <div class="row">
-        <div class="col-lg-12">
-            <div class="pandatest">
-                <div>
-                    <img id="pokeball" src="../images/pokeball.png" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
-                    <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'" ng-mouseleave="panda = '../images/redPanda.png'">
+        <div class="col-md-2">
+            <img id="pokeball" src="../images/pokeball.png" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
+            <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'"
+                ng-mouseleave="panda = '../images/redPanda.png'">
+        </div>
+        <div class="col-lg-10">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form class="form-vertical">
+                            <fieldset>
+                                <legend>Contact me</legend>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-lg-2 control-label">Name</label>
+                                    <div class="col-lg-10">
+                                        <input type="text" class="form-control" id="inputEmail" ng-model="$ctrl.name" placeholder="{{$ctrl.name}}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword" class="col-lg-2 control-label">Email</label>
+                                    <div class="col-lg-10">
+                                        <input type="name" class="form-control" id="inputPassword" ng-model="$ctrl.email" placeholder="{{$ctrl.name}}">
+                                    </div>
+                                </div>
+                                <h1 placeholder="{{$ctrl.name}}"></h1>
+                                <div class="form-group">
+                                    <label for="textArea" class="col-lg-2 control-label">Message</label>
+                                    <div class="col-lg-10">
+                                        <textarea class="form-control" rows="3" ng-model="$ctrl.message" id="textArea"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-lg-10 col-lg-offset-2">
+                                        <button type="submit" class="btn btn-primary sendButton" ng-click="$ctrl.sendMail()">Send</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <img id="cave" src="{{$ctrl.cave}}" alt="Smiley face">
+                    </div>
                 </div>
-                <img id="cave" src="{{$ctrl.cave}}" alt="Smiley face">
-            </div>
-            <div class="crystals">
-                <img class="crystal" id="pinkCrystal" src="{{$ctrl.pinkCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="blueCrystal" src="{{$ctrl.blueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="redCrystal" src="{{$ctrl.redCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="greenCrystal" src="{{$ctrl.greenCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="yellowCrystal" src="{{$ctrl.yellowCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="lightBlueCrystal" src="{{$ctrl.lightBlueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                <img class="crystal" id="purpleCrystal" src="{{$ctrl.purpleCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="crystals">
+                            <img class="crystal" id="pinkCrystal" src="{{$ctrl.pinkCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="blueCrystal" src="{{$ctrl.blueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="redCrystal" src="{{$ctrl.redCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="greenCrystal" src="{{$ctrl.greenCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="yellowCrystal" src="{{$ctrl.yellowCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()"
+                                ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="lightBlueCrystal" src="{{$ctrl.lightBlueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()"
+                                ng-mouseleave="$ctrl.regCrystals()">
+                            <img class="crystal" id="purpleCrystal" src="{{$ctrl.purpleCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()"
+                                ng-mouseleave="$ctrl.regCrystals()">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -90,49 +154,6 @@
 <div id="line">
 </div>
 
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-3 column">
-                <h4>Information</h4>
-                <ul class="nav">
-                    <li><a href="about-us.html">Products</a></li>
-                    <li><a href="about-us.html">Services</a></li>
-                    <li><a href="about-us.html">Benefits</a></li>
-                    <li><a href="elements.html">Developers</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-3 column">
-                <h4>Follow Us</h4>
-                <ul class="nav">
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Google+</a></li>
-                    <li><a href="#">Pinterest</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-3 column">
-                <h4>Contact Us</h4>
-                <ul class="nav">
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Headquarters</a></li>
-                    <li><a href="#">Management</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>
-            </div>
-            <div class="col-xs-6 col-md-3 column">
-                <h4>Customer Service</h4>
-                <ul class="nav">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Delivery Information</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                </ul>
-            </div>
-        </div>
-        <!--/row-->
-    </div>
-</footer>
 
 <!-- <p id="test2">Brap brap</p>
 <p id="test3">Brap brap</p>
