@@ -31,19 +31,14 @@
                 <div id="accomplishments">
                     <div id="dipApple">
                         <img id="diploma" src="../images/diploma.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purplestar.png'">
-                        <img id="apple" src="../images/apple.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/starDiploma.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purplestar.png'">
+                        <img id="apple" src="../images/apple.png" alt="">
                     </div>
                     <!-- <div id="dipApple">
                         <img id="computer" src="../images/computer.png" alt="" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'" ng-mouseleave="$ctrl.purpleStar = '../images/purpleStar.png'">
                     </div> -->
                     <!-- <img id="desk" class="border" src="../images/desk.png" alt="desk" usemap="#planetmap"> -->
-                    <img id="desk" src="../images/desk.png" usemap="#enewspaper" class="map">
-                    <map name="enewspaper">
-                         <area shape="rect" coords="0,112,119,453" />
-                         <area shape="rect" coords="119,235,410,453" />
-                         <area shape="rect" coords="411,232,490,453" />
-                         <area shape="rect" coords="122,112,490,230" />
-                     </map>
+                    <img id="desk" src="../images/desk.png" usemap="#enewspaper" ng-mouseenter="$ctrl.purpleStar = '../images/purpleStarDev.png'"
+                        ng-mouseleave="$ctrl.purpleStar = '../images/purplestar.png'">
                 </div>
                 <div id="orangeStar">
                     <img src="{{$ctrl.starry}}" alt="starfish" id="starfish" ng-mouseenter="$ctrl.party()" ng-mouseleave="$ctrl.noParty()">
@@ -89,8 +84,7 @@
     <div class="row">
         <div class="col-md-2">
             <img id="pokeball" src="../images/pokeball.png" alt="Smiley face" ng-mouseenter="$ctrl.randomCave()" ng-mouseleave="$ctrl.cave = '../images/cave/caveZero.png'">
-            <img id="panda" ng-init="panda = '../images/redPanda.png'" src="{{panda}}" alt="Smiley face" id="dag" ng-mouseenter="panda = '../images/redPandaSpeech.png'"
-                ng-mouseleave="panda = '../images/redPanda.png'">
+            <img id="panda" src="{{$ctrl.panda}}" alt="Smiley face" id="dag">
         </div>
         <div class="col-lg-10">
             <div class="container-fluid">
@@ -120,7 +114,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-lg-10 col-lg-offset-2">
-                                        <button type="submit" class="btn btn-primary sendButton" ng-click="$ctrl.sendMail()">Send</button>
+                                        <button type="submit" class="btn btn-primary sendButton" ng-click="$ctrl.sendMail()" ng-mouseenter="$ctrl.panda = '../images/redPandaSpeech.png'" ng-mouseleave="$ctrl.panda = '../images/redPanda.png'">Send</button>
                                     </div>
                                 </div>
                             </fieldset>
@@ -135,7 +129,7 @@
                         <div class="crystals">
                             <img class="crystal" id="pinkCrystal" src="{{$ctrl.pinkCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
                             <img class="crystal" id="blueCrystal" src="{{$ctrl.blueCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
-                            <img class="crystal" id="redCrystal" src="{{$ctrl.redCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
+                                <img class="crystal" id="redCrystal" src="{{$ctrl.redCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
                             <img class="crystal" id="greenCrystal" src="{{$ctrl.greenCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()" ng-mouseleave="$ctrl.regCrystals()">
                             <img class="crystal" id="yellowCrystal" src="{{$ctrl.yellowCrystal}}" alt="crystal" ng-mouseenter="$ctrl.randomCrystal()"
                                 ng-mouseleave="$ctrl.regCrystals()">

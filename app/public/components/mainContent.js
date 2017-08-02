@@ -10,6 +10,7 @@
         vm.$onInit = function () {
           vm.data = {};
           vm.name = 'bob';
+          vm.panda = '../images/redPanda.png';
           vm.email = '';
           vm.message = '';
           vm.pipe = '../images/pipe.png';
