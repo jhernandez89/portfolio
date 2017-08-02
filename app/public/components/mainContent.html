@@ -9,41 +9,20 @@
             <div id="dogSpeech">
                 <img id="dag" ng-init="bg = '../images/dag.png'" src="{{bg}}" alt="Smiley face" id="dag" ng-mouseenter="bg = '../images/woof.png'"
                     ng-mouseleave="bg = '../images/dag.png'">
-                <a class="page-scroll" href="#section4"><img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
-                <a class="page-scroll" href="#section3"><img class="imageDiv" id="contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
-                <a class="page-scroll" href="#section2"><div id="aboutPipe">
-                    <!-- <img id="stampede" src="{{$ctrl.stampede}}" alt="pipe"> -->
-                <a class="page-scroll" href="#section2"><img class="bottomDiv" id="whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
-                    <img id="pipe" src="{{$ctrl.pipe}}" alt="pipe" ng-mouseenter="$ctrl.starfish()" , ng-mouseleave="$ctrl.morestar()">
-                </div>
+                <a class="page-scroll postPadding projectsPadding" href="#section4"><img id="projects" src="../images/projects.png" alt="" ng-mouseenter="bg = '../images/projectswoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
+                <a class="page-scroll postPadding" href="#section3"><img class="imageDiv" id="contact" src="../images/contact.png" alt="" ng-mouseenter="bg = '../images/contactwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
+                <a class="page-scroll" href="#section2">
+                    <div id="aboutPipe">
+                        <!-- <img id="stampede" src="{{$ctrl.stampede}}" alt="pipe"> -->
+                        <a class="page-scroll" href="#section2"><img class="bottomDiv" id="whatever" src="../images/whatever.png" alt="" ng-mouseenter="bg = '../images/aboutwoof.png'" ng-mouseleave="bg = '../images/dag.png'"></a>
+                        <img id="pipe" src="{{$ctrl.pipe}}" alt="pipe" ng-mouseenter="$ctrl.starfish()" , ng-mouseleave="$ctrl.morestar()">
+                    </div>
             </div>
         </div>
     </div>
 </section>
 <div id="line">
 </div>
-<section class="container-fluid" id="section4">
-    <div class="row">
-        <div class="col-lg-12">
-            <div id="dogAndMap">
-                <img id="fox" ng-init="fox = '../images/fox.png'" src="{{fox}}" alt="Smiley face" id="dag" ng-mouseenter="fox = '../images/foxHat.png'"
-                    ng-mouseleave="fox = '../images/fox.png'">
-                <div class="mapParent">
-                    <img id="projectMap" src="../images/projectsMap.png" alt="project map" class="map mapper">
-                    <a href="https://thesaurus-rex.firebaseapp.com/#"><img id="thesaurusRex" src="../images/thesaurusRex.png" alt="Thesaurus Rex"></a>
-                    <a href="https://spacehub.us/#/"><img id="spaceHub" src="../images/spaceHub.png" alt="SpaceHub"></a>
-                    <a href="https://flashrhino.com/"><img id="flashRhino" src="../images/flashRhino.png" alt="Flash Rhino"></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<div id="line">
-</div>
-
-
 <section class="container-fluid" id="section2">
     <div class="row">
         <div class="col-lg-12 relative">
@@ -84,6 +63,26 @@
         </div>
     </div>
 </section>
+<div id="line">
+</div>
+<section class="container-fluid" id="section4">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="dogAndMap">
+                <img id="fox" ng-init="fox = '../images/fox.png'" src="{{fox}}" alt="Smiley face" id="dag">
+                <div class="mapParent">
+                    <img id="projectMap" src="../images/projectsMap.png" alt="project map" class="map mapper">
+                    <a href="https://thesaurus-rex.firebaseapp.com/#"><img id="thesaurusRex" src="../images/thesaurusRex.png" alt="Thesaurus Rex" ng-mouseenter="fox = '../images/foxThesaurusRex.png'" ng-mouseleave="fox = '../images/fox.png'"></a>
+                    <a href="https://spacehub.us/#/"><img id="spaceHub" src="../images/spaceHub.png" alt="SpaceHub" ng-mouseenter="fox = '../images/foxSpaceHub.png'" ng-mouseleave="fox = '../images/fox.png'"></a>
+                    <a href="https://flashrhino.com/"><img id="flashRhino" src="../images/flashRhino.png" alt="Flash Rhino" ng-mouseenter="fox = '../images/foxFlashRhino.png'" ng-mouseleave="fox = '../images/fox.png'"></a>
+                    <img id="castle" src="../images/castle.jpg" alt="castle" ng-mouseenter="fox = '../images/foxHat.png'" ng-mouseleave="fox = '../images/fox.png'"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <div id="line">
 </div>
 <section class="container-fluid" id="section3">

@@ -37,13 +37,13 @@
           ];
           vm.mixNum = [0, 1, 2, 3, 4, 5, 6];
         };
-        vm.sendMail = function () {
+        vm.sendmail = function () {
           vm.data = {
             name: vm.name,
             email: vm.email,
             msg: vm.message,
           };
-          $http.post('/contact-form', vm.data)
+          $http.post('/send-mail', vm.data)
           .then((response) => {
             console.log(response);
           })

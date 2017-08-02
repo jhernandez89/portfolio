@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, '/../', 'node_modules')));
 
 app.post('/sendmail', (req, res) => {
+  console.log('hello');
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {

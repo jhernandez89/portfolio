@@ -632,7 +632,18 @@ label {
     top: 48.5%;
     left: 11.5%;
 }
-
+#castle {
+    position: absolute;
+    width: 14%;
+    top: 12.5%;
+    left: 46.4%;
+}
+.postPadding {
+    padding-top: 10%;
+}
+.projectsPadding {
+    padding-left: 7%;
+}
 /*Blue - RGB(49, 72, 86)
 Peach - RGB(236, 187, 173)
 Grey/green - RGB(121, 136, 129)
